@@ -8,7 +8,7 @@ node_modules/
 brand/
 dota/
 dotabot/
-wordpress/
+wordpress/*
 public/hot/
 public/storage/
 /storage/*.key
