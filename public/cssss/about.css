@@ -132,22 +132,22 @@
 }
 
 .we-are li:nth-child(1) {
-   list-style-image:
+   list-style-image: 
    url(./../img/about-us/heart.svg);
 }
 
 .we-are li:nth-child(2) {
-   list-style-image:
+   list-style-image: 
    url(./../img/about-us/human.svg);
 }
 
 .we-are li:nth-child(3) {
-   list-style-image:
+   list-style-image: 
    url(./../img/about-us/location.svg);
 }
 
 .we-are li:nth-child(4) {
-   list-style-image:
+   list-style-image: 
    url(./../img/about-us/human.svg);
 }
 
@@ -191,11 +191,11 @@
    background: #F8F8F8;
    box-shadow: 0px 18px 20px rgba(0, 0, 0, 0.25);
    border-radius: 10px;
-   background:
+   background: 
    35px 95px
    url(./../img/request/Ellipse70x70.svg) no-repeat,
    left 0px bottom 0px
-   url(./../img/request/Ellipse138x138.svg) no-repeat,
+   url(./../img/request/Ellipse138x138.svg) no-repeat, 
    right 0px top 0px
    url(./../img/request/ellipse-arrow.svg) no-repeat;
    background-repeat: no-repeat;
@@ -262,7 +262,7 @@ form div input + label {
    position: absolute;
    left: 30px;
    top: 47%;
-   margin-top: -0.5em;
+   margin-top: -0.5em;    
 }
 
 div > input[type=text]:focus + label {
@@ -286,17 +286,17 @@ div > label > span {
 
 .redstar {
    color: #f00;
-   font-size: 18px;
+   font-size: 18px;    
 }
 
 /* checkbox */
-input[type="checkbox"]:checked,
+input[type="checkbox"]:checked, 
 input[type="checkbox"]:not(:checked){
     position: absolute;
     left: -9999px;
 }
 
-input[type="checkbox"]:checked + label,
+input[type="checkbox"]:checked + label, 
 input[type="checkbox"]:not(:checked) + label{
     display: inline-block;
     position: relative;
@@ -305,7 +305,7 @@ input[type="checkbox"]:not(:checked) + label{
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked ~ label:before,
+input[type="checkbox"]:checked ~ label:before, 
 input[type="checkbox"]:not(:checked) ~ label:before{
     content: "";
     position: absolute;
@@ -318,8 +318,8 @@ input[type="checkbox"]:not(:checked) ~ label:before{
     border-radius: 2px;
 }
 
-input[type="checkbox"]:checked + label i:after,
-input[type="checkbox"]:not(:checked) + label i:after {
+input[type="checkbox"]:checked + label i:after, 
+input[type="checkbox"]:not(:checked) + label i:after {  
       content: "";
       width: 17px;
       height: 2px;
@@ -330,7 +330,7 @@ input[type="checkbox"]:not(:checked) + label i:after {
       transform: rotate(-90deg);
 }
 
-input[type="checkbox"]:checked + label i:before,
+input[type="checkbox"]:checked + label i:before, 
 input[type="checkbox"]:not(:checked) + label i:before{
       content: "";
       width: 17px;
@@ -351,7 +351,7 @@ input[type="checkbox"]:checked + label i:after{
 input[type="checkbox"]:not(:checked) + label i:before{
    opacity: 0;
 }
-
+   
 input[type="checkbox"]:checked + label i:before{
    opacity: 1;
 }
@@ -366,6 +366,10 @@ input[type="checkbox"]:checked + label i:before{
    border: 0px;
    color: white;
    height: 70px;
+   transition: all 1s ease-out;
+}
+#request:hover {
+   background: #CC123E;
 }
 
 /* media */
@@ -398,7 +402,7 @@ input[type="checkbox"]:checked + label i:before{
 
 }
 
- @media (max-width: 871px) {
+ @media (max-width: 871px) { 
     /* ajax */
     .ajax-replace {
        padding-top: 100px;
@@ -454,10 +458,10 @@ input[type="checkbox"]:checked + label i:before{
    .request-callback {
       padding: 0 75px 70px 75px;
    }
-
+   
 
 }
- @media (max-width: 767px) {
+ @media (max-width: 767px) { 
    /* request */
    .request-callback {
       padding: 0 50px 70px 50px;

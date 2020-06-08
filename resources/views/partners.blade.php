@@ -8,6 +8,10 @@
 
 
 @section('main')
+<div class="link_silver">
+   <a href="/">Home</a> -
+   <a href="/partners">Partners</a>
+</div>
 <main>
    <div class="title">Elevate Your Business</div>
    <div class="partner-text">

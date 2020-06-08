@@ -19,6 +19,14 @@ class AboutUsController extends Controller
     {
         return view('why');
     }
+    public function experience()
+    {
+        return view('about-us.experience');
+    }
+    public function careers()
+    {
+        return view('about-us.careers');
+    }
 
 
     /**

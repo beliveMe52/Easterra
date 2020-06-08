@@ -16,7 +16,7 @@
 
 @section('main')
 
-    <div class="drop-down-list">
+    <div class="drop-down-list-ajax">
       <h1>Enterprise Mobility</h1>
       <div class="drop-down-list__text">
         Organizations deploy mobile environments to provide their employees with devices and applications to access corporate information systems, to embed them in the existing IT infrastructure in a secure manner. Sofline has all the necessary expertise for deployment of mobility solutions.

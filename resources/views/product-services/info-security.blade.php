@@ -15,7 +15,7 @@
 
 
 @section('main')
-<div class="drop-down-list">
+<div class="drop-down-list-ajax">
   <h1>Wholesale Telecom Services</h1>
   <div class="drop-down-list__text">
      Web Service Security

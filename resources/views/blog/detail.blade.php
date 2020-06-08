@@ -14,17 +14,21 @@
     <script src="/js/navbar.js"></script>
     @endsection
 @section('main')
+<div class="link_silver">
+  <a href="/">Home</a> -
+  <a href="/about-us">  {!! $post[0]['title'] !!}</a>
+</div>
 <main>
    <div class="back-to-blog"><a href="/blog"><img src="/img/arrow.svg" id="svg" alt="arrow">Back</a></div>
    <img src="/img/Rectangle.png" alt="Rectangle" class="img-title">
    <div class="news">
    <div class="news__title">
-      <div class="silver-date">5.01.2019</div>
-      GCCM CIS 2019
-      Almaty Kazakhstan
+      <div class="silver-date">{{$post[0]['date']}}</div>
+      {!! $post[0]['title'] !!}
    </div>
    <article>
-         <p>
+     {!! $post[0]['text'] !!}
+         <!-- <p>
             Amazon – виртуальный торговый сервис. Это крупнейшая мировая площадка для реализации реальных товаров и услуг между странами и даже континентами. Она объединяет продавцов и покупателей, предоставляя для каждой из сторон наиболее интересные и выгодные условия для работы.
          </p>
          <p>
@@ -66,7 +70,7 @@
          </p>
          <p>
             При этом некоторые из сведений своего аккаунта вы можете сделать доступными для своих покупателей, а некоторую информацию скрыть от посторонних глаз.
-         </p>
+         </p> -->
    </article>
    <div class="subscribe">
       <h1>Don't skip new articles</h1>

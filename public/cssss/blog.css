@@ -18,6 +18,7 @@ main {
    width: 100%;
    padding-top: 60px;
 }
+
 .news p {
    color:#0D0C3B;
 }
@@ -29,6 +30,8 @@ main {
    height: 360px;
    object-fit: cover;
    border-radius: 6px;
+   margin-bottom: 20px; 
+   
 }
 .news a:nth-child(3) h2 {
    padding-right: 8%;
@@ -37,12 +40,13 @@ main {
    padding-right: 8%;
 }
 .news h2 {
-   font-weight: 500;
+   font-weight: 700;
    font-size: 24px;
    line-height: 41px;
    letter-spacing: 1px;
    text-transform: uppercase;
    color:#0D0C3B;
+
 }
 .news p {
    font-size: 14px;
@@ -51,15 +55,17 @@ main {
 .item__date {
    padding-top: 10px;
 }
-a:hover {
+a:hover .item__title .item__text {
    text-decoration: underline;
 }
-a:hover h2, p {
+a:hover h2 {
    color: #163DA2;
+   text-decoration: underline;
+
 }
 a:hover p {
    color: #163DA2;
-
+   text-decoration: underline;
 }
 .more-news {
    display: flex;
@@ -84,7 +90,6 @@ a:hover p {
 }
 .img-1:hover {
    background: #163DA2;
-
 }
 .img-1:hover img {
    stroke: #FFFFFF;
@@ -155,8 +160,16 @@ a:hover p {
    .news a:nth-child(3) {
       grid-column: 1 / 2;
    }
+   
    .news-title {
       padding-left: 2%;
       font-size: 40px;
+   }
+   .more-news {
+      justify-content: space-between;
+      
+   }
+   .more-news a {
+      margin-left: 0px;
    }
 }

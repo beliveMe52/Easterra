@@ -11,16 +11,16 @@
 
 @section('main')
     <div class="link_silver">
-      <a href="./../main-page/main.html">Home</a>-
-      <a href="./../about-us/about-us.html">About-us</a>
+      <a href="/">Home</a> -
+      <a href="/about-us">About-us</a>
     </div>
     <main>
       <div class="main-img">
-        <img src="img/about-us/main-img.png" alt="" />
+        <img src="./../img/about-us/main-img.png" alt="" />
       </div>
       <div class="about-us">
         <div class="about-us__ajax-navigation">
-          <a class="ajax" href="./about-us.html" id="about-us">About us</a>
+          <a class="ajax" href="about-us" id="about-us">About us</a>
           <a
             class="ajax"
             href="/get-to-know"
@@ -29,23 +29,24 @@
           >
           <a
             class="ajax"
-            href="./../ajax/about-us/experience.html"
+            href="/experience"
             id="experience"
             >Customer Experience</a
           >
           <a
             class="ajax"
-            href="./../ajax/about-us/careers.html"
+            href="/careers"
             id="careers"
             >Careers</a
           >
         </div>
         <div class="back-img">
-          <img src="img/amcharts.pixelMap.png" alt="pixelMap">
+          <img src="./../img/about-us/amcharts.pixelMap.png" alt="pixelMap">
         </div>
         <div class="back-img-2">
-          <img src="img/Group 316.png" alt="Group316.png">
+          <img src="./../img/about-us/Group 316.png" alt="Group316.png">
         </div>
+        <div class="wraper-corporate">
           <div class="ajax-replace">
             <h1>About us</h1>
             <div class="about-us__text">
@@ -110,7 +111,9 @@
               </ul>
             </div>
           </div>
+        </div>
       </div>
+      <div class="wraper-corporate">
       <div class="request-callback">
         <h1>Request a callback</h1>
         <form>
@@ -148,5 +151,6 @@
           <button id="request">request a callback</button>
         </form>
       </div>
+    </div>
     </main>
 @endsection

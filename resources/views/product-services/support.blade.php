@@ -15,7 +15,7 @@
 
 
 @section('main')
-<div class="drop-down-list">
+<div class="drop-down-list-ajax">
   <h1>Technical Support and Outsourcing</h1>
   <ul>
     <li>

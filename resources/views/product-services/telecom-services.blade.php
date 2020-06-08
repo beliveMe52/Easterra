@@ -15,7 +15,7 @@
 
 
 @section('main')
-<div class="drop-down-list">
+<div class="drop-down-list-ajax">
   <h1>Information Security</h1>
   <div class="drop-down-list__text">
     Easterra was built by people who believed in finding “a better way.”

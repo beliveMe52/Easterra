@@ -79,7 +79,7 @@ ul li {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 700;
 }
 .drop-down-list h2 {
   border: 1px solid #bdbdbd;
@@ -231,12 +231,17 @@ ul li input[type="checkbox"] {
 }
 
  @media (max-width: 871px) { 
-
+  .drop-down-list h1 {
+    font-size: 45px;
+  }
 }
  @media (max-width: 767px) { 
    .product-services__ajax-navigation {
       grid-template-columns: 1fr;
    }
+   .drop-down-list h1 {
+    font-size: 35px;
+  }
 
  }
  @media (max-width: 575px) {
@@ -250,5 +255,8 @@ ul li input[type="checkbox"] {
       padding-bottom: 28px;
 
       background-color: #fefffa;
+    }
+    .drop-down-list h1 {
+      font-size: 30px;
     }
 }

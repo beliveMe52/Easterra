@@ -32,6 +32,10 @@ class ProductServicesController extends Controller
     {
         return view('product-services.telecom-services');
     }
+    public function it()
+    {
+        return view('product-services.it');
+    }
 
 
     /**

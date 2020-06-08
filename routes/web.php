@@ -24,15 +24,22 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/about-us', 'AboutUsController@index');
 
+Route::get('/reviews', 'ReviewsController@index');
+
+Route::get('/about-us', 'AboutUsController@index');
 Route::get('/get-to-know', 'AboutUsController@why');
+Route::get('/experience', 'AboutUsController@experience');
+Route::get('/careers', 'AboutUsController@careers');
+
+
 
 
 Route::get('/product-services', 'ProductServicesController@index');
 Route::get('/support', 'ProductServicesController@support_view');
 Route::get('/enterprise', 'ProductServicesController@enterprise_view');
 Route::get('/info', 'ProductServicesController@telecom_view');
+Route::get('/it', 'ProductServicesController@it');
 Route::get('/telecom-services', 'ProductServicesController@infoview');
 
 
@@ -41,7 +48,7 @@ Route::get('/partners', 'PartnersController@index');
 
 
 Route::get('/blog', 'BlogController@index');
-Route::get('/blog/detail', 'BlogController@detail');
+Route::get('/blog/{id}', 'BlogController@detail');
 
 
 Route::get('/contacts', 'ContactsController@index');
