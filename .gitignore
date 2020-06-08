@@ -5,6 +5,7 @@ presta/
 opencart/
 obmenka/
 node_modules/
+brand/
 public/hot/
 public/storage/
 /storage/*.key
